@@ -10,8 +10,15 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 li {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 4px;
 }

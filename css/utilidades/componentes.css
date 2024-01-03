@@ -3,7 +3,7 @@
   line-height: 133%;
   padding: 16px 32px;
   text-transform: uppercase;
-  color: #332200;
+  color: var(--cor-p5);
   background: linear-gradient(#ffbf00, #f2a50c);
   border-radius: 4px;
   display: inline-block;

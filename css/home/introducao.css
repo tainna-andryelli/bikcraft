@@ -38,19 +38,6 @@
   font-weight: 400;
 }
 
-.introducao-conteudo a {
-  font-size: 18px;
-  padding: 16px 32px;
-  text-transform: uppercase;
-  color: #332200;
-  background: linear-gradient(#ffbf00, #f2a50c);
-  border-radius: 4px;
-  display: inline-block;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
-  font-family: "Poppins";
-  font-weight: 600;
-}
-
 .introducao-imagem img {
   height: 100%;
   object-fit: cover;
@@ -84,12 +71,5 @@
 
   .introducao-conteudo h1 {
     font-size: 48px;
-  }
-}
-
-@media (max-width: 600px) {
-  .introducao-conteudo a {
-    font-size: 14px;
-    padding: 12px 16px;
   }
 }

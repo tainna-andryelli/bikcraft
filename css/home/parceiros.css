@@ -65,3 +65,9 @@
     border-left: none;
   }
 }
+
+@media (max-width: 600px) {
+  .parceiros-conteudo img {
+    width: 100px;
+  }
+}

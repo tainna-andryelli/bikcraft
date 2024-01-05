@@ -1,0 +1,109 @@
+.seguros-bg {
+  background-color: var(--cor-11);
+  padding: 60px 0;
+}
+
+.seguros > h2 {
+  margin-bottom: 60px;
+}
+
+.seguros-items {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seguro-prata,
+.seguro-ouro {
+  background-color: var(--cor-12);
+  padding: 32px 60px;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.seguro-titulo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.seguro-titulo > h3 {
+  text-transform: uppercase;
+}
+
+.seguro-preco {
+  display: flex;
+  flex-direction: column;
+}
+
+.seguro-preco-info {
+  text-align: end;
+}
+
+.seguros-items ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.seguros-items li {
+  position: relative;
+}
+
+.seguros-items li::before {
+  content: url("../../img/icones/lista.svg");
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  left: -20px;
+  top: -2px;
+}
+
+.seguro-prata a {
+  color: var(--cor-4);
+  background: linear-gradient(var(--cor-9), var(--cor-10));
+}
+
+.seguro-prata a:hover {
+  background: linear-gradient(var(--cor-8), var(--cor-9));
+}
+
+@media (max-width: 900px) {
+  .seguro-titulo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .seguro-preco-info {
+    text-align: start;
+  }
+}
+
+@media (max-width: 800px) {
+  .seguros > h2 {
+    margin-bottom: 20px;
+  }
+
+  .seguros-items {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .seguro-titulo {
+    flex-direction: row;
+    font-size: 2rem;
+  }
+
+  .seguro-prata,
+  .seguro-ouro {
+    width: -webkit-fill-available;
+  }
+}
+
+@media (max-width: 500px) {
+  .seguro-titulo {
+    flex-direction: column;
+  }
+}

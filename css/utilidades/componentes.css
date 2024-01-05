@@ -45,3 +45,9 @@
 .link:hover {
   color: var(--cor-0);
 }
+
+@media (max-width: 400px) {
+  .link {
+    font-size: 1rem;
+  }
+}

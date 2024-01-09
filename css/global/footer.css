@@ -46,20 +46,21 @@
 .footer .conteudo {
   display: flex;
   flex-wrap: wrap;
-  gap: 120px;
+  gap: 60px;
 }
 
-.footer-bg .direitos {
-  max-width: 1400px;
-  margin: 0 auto;
-  margin-top: 40px;
-  padding: 20px;
+.footer > span {
+  margin-top: 60px;
+  width: max-content;
 }
 
 @media (max-width: 800px) {
   .footer {
     grid-template-columns: 1fr;
     gap: 80px;
+  }
+  .footer > span {
+    margin-top: 0;
   }
 }
 
@@ -71,5 +72,9 @@
   .footer .conteudo .contato,
   .footer .conteudo .informacoes {
     width: 100%;
+  }
+
+  .footer > span {
+    margin-top: 40px;
   }
 }

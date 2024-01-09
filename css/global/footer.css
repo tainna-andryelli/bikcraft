@@ -1,0 +1,75 @@
+.footer-bg {
+  background-color: var(--cor-12);
+  padding-top: 60px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.footer .contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+
+.footer .contato .endereco {
+  position: relative;
+}
+
+.contato .redes {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.contato .redes::before,
+.contato .endereco::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: var(--cor-11);
+  display: block;
+  position: absolute;
+  top: -10px;
+}
+
+.footer .informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+
+.footer-bg .direitos {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer .conteudo {
+    gap: 80px;
+  }
+
+  .footer .conteudo .contato,
+  .footer .conteudo .informacoes {
+    width: 100%;
+  }
+}

@@ -77,4 +77,8 @@
   .footer-informacoes {
     width: 100%;
   }
+
+  .footer-copy {
+    width: auto;
+  }
 }

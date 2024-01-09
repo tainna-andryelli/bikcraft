@@ -1,0 +1,33 @@
+.termos-bg {
+  background-color: var(--cor-0);
+  padding: 120px 0;
+}
+
+.termos {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.termos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.termos-lista ul {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.termos-lista ul li {
+  max-width: 760px;
+}
+
+@media (max-width: 800px) {
+  .termos-bg {
+    background-color: var(--cor-0);
+    padding: 80px 0;
+  }
+}

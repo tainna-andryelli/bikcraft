@@ -15,6 +15,25 @@
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
 }
 
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+}
+
+.botao.seta:hover::after {
+  transform: translateX(6px);
+  transition: transform 0.3s;
+}
+
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }

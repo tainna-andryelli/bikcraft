@@ -13,8 +13,6 @@
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
-
-/* Bicicletas */
 @import "./home/bicicletas-lista.css";
 
 /* Seguros */
@@ -22,3 +20,6 @@
 
 /* Termos */
 @import "./termos/termos.css";
+
+/* Bicicletas */
+@import "./bicicletas/bicicletas.css";

@@ -1,0 +1,36 @@
+.seguro-vantagens-bg {
+  background-color: var(--cor-12);
+}
+
+.seguro-vantagens {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.seguro-vantagens ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  margin: 80px 0;
+  gap: 40px;
+}
+
+.seguro-vantagens li {
+  display: grid;
+  gap: 8px;
+}
+
+.perguntas-bg {
+  background-color: var(--cor-0);
+}
+
+.perguntas {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 800px) {
+  .seguro-vantagens {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

@@ -1,6 +1,14 @@
 .seguros-bg {
   background-color: var(--cor-11);
-  padding: 60px 0;
+}
+
+.seguros {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#seguros .seguros {
+  padding-top: 0px;
 }
 
 .seguros > h2 {

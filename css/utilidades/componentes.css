@@ -52,13 +52,23 @@
   }
 }
 
-.titulo {
+.titulo-bg {
   background-color: var(--cor-11);
   padding: 60px 0;
 }
 
+.titulo p {
+  margin-bottom: 4px;
+}
+
 @media (max-width: 800px) {
-  .titulo {
-    padding: 24px 0;
+  .titulo-bg {
+    padding: 40px 0;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }

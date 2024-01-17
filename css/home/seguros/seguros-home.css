@@ -61,7 +61,7 @@
 }
 
 .seguros-items li::before {
-  content: url("../../img/icones/lista.svg");
+  content: url("../../../img/icones/lista.svg");
   position: absolute;
   width: 13px;
   height: 9px;

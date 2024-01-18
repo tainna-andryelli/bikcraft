@@ -24,3 +24,4 @@
 /* Bicicletas */
 @import "./home/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
+@import "./bicicletas/bicicleta-interna.css";

@@ -1,0 +1,106 @@
+.bicicleta-interna-bg {
+  background-color: var(--cor-11);
+}
+
+.bicicleta-interna {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+
+.bicicleta-interna-imagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: max-content;
+  gap: 20px;
+}
+
+.bicicleta-interna-imagens :nth-child(1) {
+  grid-column: -1/1;
+}
+
+.bicicleta-interna-conteudo > p {
+  margin-bottom: 32px;
+}
+
+.interna-conteudo-botao {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 40px;
+  gap: 12px;
+}
+
+.interna-conteudo-botao a {
+  grid-row: -1/3;
+}
+
+.interna-conteudo-botao span {
+  padding: 4px 8px 4px 32px;
+  border-radius: 5px;
+  background-color: var(--cor-12);
+  text-align: start;
+  justify-self: start;
+  position: relative;
+}
+
+.interna-conteudo-botao span:nth-child(even)::before {
+  content: "";
+  background: url("../../img/icones/entrega.svg");
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 8px;
+}
+
+.interna-conteudo-botao span:nth-child(odd)::before {
+  content: "";
+  background: url("../../img/icones/estoque.svg");
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 8px;
+}
+
+.bicicleta-interna-conteudo > span {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.interna-conteudo-informacoes {
+  padding: 32px;
+  background-color: var(--cor-12);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.interna-conteudo-informacoes img {
+  margin-bottom: 4px;
+}
+
+.interna-conteudo-informacoes span {
+  margin-bottom: 8px;
+}
+
+.interna-conteudo-ficha {
+  padding: 32px;
+  border-radius: 5px;
+  background-color: var(--cor-12);
+}
+
+.interna-conteudo-ficha > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 5px 0;
+  border-bottom: 2px solid var(--cor-11);
+}
+
+.interna-conteudo-ficha > div:nth-last-child(1) {
+  margin-bottom: 0;
+  border: none;
+}

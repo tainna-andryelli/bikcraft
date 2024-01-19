@@ -5,6 +5,7 @@
 
 .interna-seguro {
   max-width: 1400px;
+  margin: 0 auto;
   padding: 0 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -67,6 +67,7 @@
 .bicicleta-interna-conteudo h2 {
   text-transform: uppercase;
   margin-bottom: 12px;
+  letter-spacing: 0.015em;
 }
 
 .interna-conteudo-informacoes {

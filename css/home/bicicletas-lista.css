@@ -12,6 +12,10 @@
   overflow-x: auto; /* cria scroll caso seja necessário */
 }
 
+#bicicleta-interna .bicicletas-lista ul {
+  padding: 40px 0;
+}
+
 .bicicletas-lista ul li {
   min-width: 280px;
 }

@@ -45,6 +45,12 @@
   }
 }
 
+@media (max-width: 400px) {
+  .botao {
+    font-size: 0.75rem;
+  }
+}
+
 .link {
   display: inline-block;
   color: var(--cor-p1);

@@ -1,0 +1,112 @@
+.lojas-bg {
+  background-color: var(--cor-1);
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.lojas-bg h2 {
+  margin-bottom: 60px;
+}
+
+.lojas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.lojas .rio,
+.lojas .sp {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  padding-bottom: 32px;
+}
+
+.sp-imagem img,
+.rio-imagem img {
+  object-fit: cover;
+}
+
+.sp-imagem,
+.rio-imagem {
+  align-self: center;
+}
+
+.lojas h3 {
+  padding-left: 60px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lojas h3::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+}
+
+.lojas ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 74px;
+  padding-left: 12px;
+  row-gap: 20px;
+  column-gap: 20px;
+  position: relative;
+}
+
+.lojas ul div {
+  border-left: 1px solid var(--cor-2);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 8px;
+}
+
+.lojas ul li {
+  line-height: 2em;
+}
+
+.lojas span {
+  padding-left: 60px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.lojas .rio span::before,
+.lojas .sp span::before {
+  content: "";
+  background: url("../../img/icones/horario.svg");
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 900px) {
+  .lojas ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .lojas-bg h2 {
+    margin-bottom: 40px;
+  }
+
+  .lojas h3,
+  .lojas span {
+    padding-left: 32px;
+  }
+
+  .lojas ul {
+    margin-left: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .lojas {
+    grid-template-columns: 1fr;
+  }
+}

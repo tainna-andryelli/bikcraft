@@ -69,6 +69,10 @@
   line-height: 2em;
 }
 
+.lojas ul a:hover {
+  color: var(--cor-12);
+}
+
 .lojas span {
   padding-left: 60px;
   display: flex;

@@ -132,3 +132,29 @@
   border-radius: 5px;
   border: 1px solid var(--cor-2);
 }
+
+[type="checkbox"] {
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--cor-2);
+  border-radius: 5px;
+  background-color: var(--cor-1);
+  position: relative;
+}
+
+[type="checkbox"]:checked {
+  border: 1px solid var(--cor-4);
+  background-color: var(--cor-2);
+}
+
+[type="checkbox"]:checked::before {
+  height: 20px;
+  width: 20px;
+  content: "";
+  background: url("../../img/icones/lista.svg") no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: 0px;
+}

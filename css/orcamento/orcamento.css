@@ -95,15 +95,29 @@
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
+.orcamento-formulario > span {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.orcamento-formulario > span::before {
+  content: "";
+  width: 4px;
+  height: 8px;
+  background-color: var(--cor-p1);
+}
+
 .orcamento-formulario > div {
   display: flex;
   flex-direction: column;
 }
 
 .orcamento-formulario > div:nth-child(13) {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  align-items: center;
 }
 
 .orcamento-formulario span,
@@ -148,6 +162,10 @@
     padding: 30px 24px;
   }
 
+  .orcamento-seguro {
+    gap: 12px;
+  }
+
   .orcamento-bicicleta-interna {
     grid-template-columns: 1fr;
     margin-left: 0;
@@ -163,5 +181,12 @@
 
   .orcamento-formulario > button {
     justify-self: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .orcamento-informacoes,
+  .orcamento-formulario {
+    padding: 24px 12px;
   }
 }

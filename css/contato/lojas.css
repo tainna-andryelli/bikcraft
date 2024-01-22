@@ -73,15 +73,14 @@
   color: var(--cor-12);
 }
 
-.lojas span {
+.lojas-tempo {
   padding-left: 60px;
   display: flex;
   gap: 8px;
   align-items: center;
 }
 
-.lojas .rio span::before,
-.lojas .sp span::before {
+.lojas-tempo::before {
   content: "";
   background: url("../../img/icones/horario.svg");
   width: 20px;

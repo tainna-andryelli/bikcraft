@@ -124,14 +124,6 @@
   align-items: center;
 }
 
-.orcamento-formulario span,
-.orcamento-formulario > div:nth-child(4),
-.orcamento-formulario > div:nth-child(5),
-.orcamento-formulario > div:nth-child(13),
-.orcamento-formulario > button {
-  grid-column: -1/1;
-}
-
 .orcamento-formulario > button {
   justify-self: start;
 }

@@ -13,6 +13,8 @@
   display: inline-block;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
+  cursor: pointer;
+  border: none;
 }
 
 .botao.seta {
@@ -133,6 +135,15 @@
   border: 1px solid var(--cor-2);
 }
 
+.input:focus,
+.textarea:focus,
+.select:focus {
+  outline: none;
+  border-color: var(--cor-p1);
+  background-color: var(--cor-0);
+  box-shadow: 0 0 0 2px #fea;
+}
+
 input[type="checkbox"] {
   appearance: none;
   width: 24px;
@@ -157,4 +168,8 @@ input[type="checkbox"]:checked::before {
   position: absolute;
   top: 7px;
   right: -2px;
+}
+
+.col-2 {
+  grid-column: -1/1;
 }

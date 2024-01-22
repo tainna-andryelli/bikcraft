@@ -81,12 +81,6 @@
   flex-direction: column;
 }
 
-.contato-formulario > div:nth-child(3),
-.contato-formulario > div:nth-child(4),
-.contato-formulario .botao {
-  grid-column: -1/1;
-}
-
 .contato-formulario label {
   margin-bottom: 4px;
 }

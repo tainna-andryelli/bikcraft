@@ -1,5 +1,6 @@
 .depoimento-bg {
-  background-color: var(--cor-p1);
+  background: var(--cor-p1) url("../../img/dec/bottom-right-p.svg") no-repeat
+    bottom 40px right 40px;
 }
 
 .depoimento {
@@ -48,6 +49,10 @@
 }
 
 @media (max-width: 600px) {
+  .depoimento-bg {
+    background: var(--cor-p1);
+  }
+
   .depoimento {
     grid-template-columns: 1fr;
   }

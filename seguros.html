@@ -13,6 +13,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="seguros">
@@ -42,7 +44,7 @@
 
     <div class="seguros container">
       <div class="seguros-items">
-        <div class="seguro-prata">
+        <div class="seguro-prata fadeInLeft" data-anime="200">
           <div class="seguro-titulo font-1-xl">
             <h3 class="cor-6">Prata</h3>
             <div class="seguro-preco">
@@ -59,7 +61,7 @@
           <a href="./orcamento.html?tipo=seguro&plano=prata" class="botao">inscreva-se</a>
         </div>
 
-        <div class="seguro-ouro">
+        <div class="seguro-ouro fadeInRight" data-anime="400">
           <div class="seguro-titulo font-1-xl">
             <h3 class="cor-p1">Ouro</h3>
             <div class="seguro-preco">
@@ -195,6 +197,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

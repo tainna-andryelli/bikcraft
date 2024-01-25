@@ -1,12 +1,12 @@
+/* Utilidades */
 @import "./global/global.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/animacao.css";
 
 @import "./global/header.css";
 @import "./global/footer.css";
-
-/* Utilidades */
-@import "./utilidades/componentes.css";
 
 /* Home */
 @import "./home/introducao.css";

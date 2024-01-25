@@ -68,3 +68,7 @@ function selecionaImagem(image) {
   image.addEventListener("click", mudaPrincipal);
 }
 galeria.forEach(selecionaImagem);
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

@@ -13,6 +13,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -35,12 +37,12 @@
   <main class="introducao-bg">
     <div class="introducao container cor-1">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl">Bicicletas feitas
+        <h1 class="font-1-xxl fadeInDown" data-anime="200">Bicicletas feitas
           sob medida<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="botao" href="./bicicletas.html">Selecione a sua</a>
+        <p class="font-2-l cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a class="botao fadeInDown" href="./bicicletas.html" data-anime="600">Selecione a sua</a>
       </div>
-      <picture class="introducao-imagem">
+      <picture class="introducao-imagem fadeInDown" data-anime="700">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="bicicleta elétrica preta">
       </picture>
@@ -229,6 +231,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>;
   <script src="./js/script.js"></script>
 </body>
 

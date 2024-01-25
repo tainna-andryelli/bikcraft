@@ -16,6 +16,10 @@
   gap: 20px;
 }
 
+.bicicleta-interna-imagens img:nth-child(n + 2) {
+  cursor: pointer;
+}
+
 .bicicleta-interna-imagens :nth-child(1) {
   grid-column: -1/1;
 }

@@ -218,6 +218,10 @@
 }
 
 @media (max-width: 800px) {
+  .orcamento-bg {
+    background: var(--cor-11);
+  }
+
   .orcamento {
     grid-template-columns: 1fr;
   }
